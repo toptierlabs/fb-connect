@@ -10,7 +10,7 @@
 
 #import "fb_connectViewController.h"
 
-@implementation fb_connectAppDelegate
+@implementation fb_connectAppDelegate 
 
 
 @synthesize window=_window;
