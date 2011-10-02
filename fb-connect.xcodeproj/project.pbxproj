@@ -1,0 +1,458 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AB92B197143903E400E89383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B196143903E400E89383 /* UIKit.framework */; };
+		AB92B199143903E400E89383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B198143903E400E89383 /* Foundation.framework */; };
+		AB92B19B143903E400E89383 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B19A143903E400E89383 /* CoreGraphics.framework */; };
+		AB92B1A1143903E400E89383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB92B19F143903E400E89383 /* InfoPlist.strings */; };
+		AB92B1A4143903E400E89383 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92B1A3143903E400E89383 /* main.m */; };
+		AB92B1A7143903E400E89383 /* fb_connectAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92B1A6143903E400E89383 /* fb_connectAppDelegate.m */; };
+		AB92B1AA143903E400E89383 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB92B1A8143903E400E89383 /* MainWindow.xib */; };
+		AB92B1AD143903E400E89383 /* fb_connectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92B1AC143903E400E89383 /* fb_connectViewController.m */; };
+		AB92B1B0143903E400E89383 /* fb_connectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB92B1AE143903E400E89383 /* fb_connectViewController.xib */; };
+		AB92B1B7143903E400E89383 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B196143903E400E89383 /* UIKit.framework */; };
+		AB92B1B8143903E400E89383 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B198143903E400E89383 /* Foundation.framework */; };
+		AB92B1B9143903E400E89383 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB92B19A143903E400E89383 /* CoreGraphics.framework */; };
+		AB92B1C1143903E400E89383 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB92B1BF143903E400E89383 /* InfoPlist.strings */; };
+		AB92B1C4143903E400E89383 /* fb_connectTests.h in Resources */ = {isa = PBXBuildFile; fileRef = AB92B1C3143903E400E89383 /* fb_connectTests.h */; };
+		AB92B1C6143903E400E89383 /* fb_connectTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB92B1C5143903E400E89383 /* fb_connectTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AB92B1BA143903E400E89383 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AB92B189143903E400E89383 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AB92B191143903E400E89383;
+			remoteInfo = "fb-connect";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AB92B192143903E400E89383 /* fb-connect.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fb-connect.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB92B196143903E400E89383 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AB92B198143903E400E89383 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AB92B19A143903E400E89383 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AB92B19E143903E400E89383 /* fb-connect-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb-connect-Info.plist"; sourceTree = "<group>"; };
+		AB92B1A0143903E400E89383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB92B1A2143903E400E89383 /* fb-connect-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fb-connect-Prefix.pch"; sourceTree = "<group>"; };
+		AB92B1A3143903E400E89383 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB92B1A5143903E400E89383 /* fb_connectAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fb_connectAppDelegate.h; sourceTree = "<group>"; };
+		AB92B1A6143903E400E89383 /* fb_connectAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_connectAppDelegate.m; sourceTree = "<group>"; };
+		AB92B1A9143903E400E89383 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		AB92B1AB143903E400E89383 /* fb_connectViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fb_connectViewController.h; sourceTree = "<group>"; };
+		AB92B1AC143903E400E89383 /* fb_connectViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_connectViewController.m; sourceTree = "<group>"; };
+		AB92B1AF143903E400E89383 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/fb_connectViewController.xib; sourceTree = "<group>"; };
+		AB92B1B6143903E400E89383 /* fb-connectTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fb-connectTests.octest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB92B1BE143903E400E89383 /* fb-connectTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fb-connectTests-Info.plist"; sourceTree = "<group>"; };
+		AB92B1C0143903E400E89383 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AB92B1C2143903E400E89383 /* fb-connectTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fb-connectTests-Prefix.pch"; sourceTree = "<group>"; };
+		AB92B1C3143903E400E89383 /* fb_connectTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fb_connectTests.h; sourceTree = "<group>"; };
+		AB92B1C5143903E400E89383 /* fb_connectTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fb_connectTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AB92B18F143903E400E89383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B197143903E400E89383 /* UIKit.framework in Frameworks */,
+				AB92B199143903E400E89383 /* Foundation.framework in Frameworks */,
+				AB92B19B143903E400E89383 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB92B1B2143903E400E89383 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B1B7143903E400E89383 /* UIKit.framework in Frameworks */,
+				AB92B1B8143903E400E89383 /* Foundation.framework in Frameworks */,
+				AB92B1B9143903E400E89383 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AB92B187143903E400E89383 = {
+			isa = PBXGroup;
+			children = (
+				AB92B19C143903E400E89383 /* fb-connect */,
+				AB92B1BC143903E400E89383 /* fb-connectTests */,
+				AB92B195143903E400E89383 /* Frameworks */,
+				AB92B193143903E400E89383 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AB92B193143903E400E89383 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B192143903E400E89383 /* fb-connect.app */,
+				AB92B1B6143903E400E89383 /* fb-connectTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB92B195143903E400E89383 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B196143903E400E89383 /* UIKit.framework */,
+				AB92B198143903E400E89383 /* Foundation.framework */,
+				AB92B19A143903E400E89383 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB92B19C143903E400E89383 /* fb-connect */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B1A5143903E400E89383 /* fb_connectAppDelegate.h */,
+				AB92B1A6143903E400E89383 /* fb_connectAppDelegate.m */,
+				AB92B1A8143903E400E89383 /* MainWindow.xib */,
+				AB92B1AB143903E400E89383 /* fb_connectViewController.h */,
+				AB92B1AC143903E400E89383 /* fb_connectViewController.m */,
+				AB92B1AE143903E400E89383 /* fb_connectViewController.xib */,
+				AB92B19D143903E400E89383 /* Supporting Files */,
+			);
+			path = "fb-connect";
+			sourceTree = "<group>";
+		};
+		AB92B19D143903E400E89383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B19E143903E400E89383 /* fb-connect-Info.plist */,
+				AB92B19F143903E400E89383 /* InfoPlist.strings */,
+				AB92B1A2143903E400E89383 /* fb-connect-Prefix.pch */,
+				AB92B1A3143903E400E89383 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB92B1BC143903E400E89383 /* fb-connectTests */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B1C3143903E400E89383 /* fb_connectTests.h */,
+				AB92B1C5143903E400E89383 /* fb_connectTests.m */,
+				AB92B1BD143903E400E89383 /* Supporting Files */,
+			);
+			path = "fb-connectTests";
+			sourceTree = "<group>";
+		};
+		AB92B1BD143903E400E89383 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB92B1BE143903E400E89383 /* fb-connectTests-Info.plist */,
+				AB92B1BF143903E400E89383 /* InfoPlist.strings */,
+				AB92B1C2143903E400E89383 /* fb-connectTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AB92B191143903E400E89383 /* fb-connect */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB92B1C9143903E400E89383 /* Build configuration list for PBXNativeTarget "fb-connect" */;
+			buildPhases = (
+				AB92B18E143903E400E89383 /* Sources */,
+				AB92B18F143903E400E89383 /* Frameworks */,
+				AB92B190143903E400E89383 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fb-connect";
+			productName = "fb-connect";
+			productReference = AB92B192143903E400E89383 /* fb-connect.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AB92B1B5143903E400E89383 /* fb-connectTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AB92B1CC143903E400E89383 /* Build configuration list for PBXNativeTarget "fb-connectTests" */;
+			buildPhases = (
+				AB92B1B1143903E400E89383 /* Sources */,
+				AB92B1B2143903E400E89383 /* Frameworks */,
+				AB92B1B3143903E400E89383 /* Resources */,
+				AB92B1B4143903E400E89383 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AB92B1BB143903E400E89383 /* PBXTargetDependency */,
+			);
+			name = "fb-connectTests";
+			productName = "fb-connectTests";
+			productReference = AB92B1B6143903E400E89383 /* fb-connectTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AB92B189143903E400E89383 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = AB92B18C143903E400E89383 /* Build configuration list for PBXProject "fb-connect" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AB92B187143903E400E89383;
+			productRefGroup = AB92B193143903E400E89383 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AB92B191143903E400E89383 /* fb-connect */,
+				AB92B1B5143903E400E89383 /* fb-connectTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AB92B190143903E400E89383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B1A1143903E400E89383 /* InfoPlist.strings in Resources */,
+				AB92B1AA143903E400E89383 /* MainWindow.xib in Resources */,
+				AB92B1B0143903E400E89383 /* fb_connectViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB92B1B3143903E400E89383 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B1C1143903E400E89383 /* InfoPlist.strings in Resources */,
+				AB92B1C4143903E400E89383 /* fb_connectTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AB92B1B4143903E400E89383 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AB92B18E143903E400E89383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B1A4143903E400E89383 /* main.m in Sources */,
+				AB92B1A7143903E400E89383 /* fb_connectAppDelegate.m in Sources */,
+				AB92B1AD143903E400E89383 /* fb_connectViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB92B1B1143903E400E89383 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB92B1C6143903E400E89383 /* fb_connectTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AB92B1BB143903E400E89383 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AB92B191143903E400E89383 /* fb-connect */;
+			targetProxy = AB92B1BA143903E400E89383 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AB92B19F143903E400E89383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB92B1A0143903E400E89383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AB92B1A8143903E400E89383 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB92B1A9143903E400E89383 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		AB92B1AE143903E400E89383 /* fb_connectViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB92B1AF143903E400E89383 /* en */,
+			);
+			name = fb_connectViewController.xib;
+			sourceTree = "<group>";
+		};
+		AB92B1BF143903E400E89383 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AB92B1C0143903E400E89383 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AB92B1C7143903E400E89383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AB92B1C8143903E400E89383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		AB92B1CA143903E400E89383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fb-connect/fb-connect-Prefix.pch";
+				INFOPLIST_FILE = "fb-connect/fb-connect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AB92B1CB143903E400E89383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fb-connect/fb-connect-Prefix.pch";
+				INFOPLIST_FILE = "fb-connect/fb-connect-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		AB92B1CD143903E400E89383 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fb-connect.app/fb-connect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fb-connectTests/fb-connectTests-Prefix.pch";
+				INFOPLIST_FILE = "fb-connectTests/fb-connectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		AB92B1CE143903E400E89383 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/fb-connect.app/fb-connect";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "fb-connectTests/fb-connectTests-Prefix.pch";
+				INFOPLIST_FILE = "fb-connectTests/fb-connectTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AB92B18C143903E400E89383 /* Build configuration list for PBXProject "fb-connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB92B1C7143903E400E89383 /* Debug */,
+				AB92B1C8143903E400E89383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AB92B1C9143903E400E89383 /* Build configuration list for PBXNativeTarget "fb-connect" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB92B1CA143903E400E89383 /* Debug */,
+				AB92B1CB143903E400E89383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		AB92B1CC143903E400E89383 /* Build configuration list for PBXNativeTarget "fb-connectTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AB92B1CD143903E400E89383 /* Debug */,
+				AB92B1CE143903E400E89383 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AB92B189143903E400E89383 /* Project object */;
+}

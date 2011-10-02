@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'fb-connectTests' target in the 'fb-connectTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif
