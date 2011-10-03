@@ -1,5 +1,8 @@
 ses the Facebook ios API to get wall posts of an user in Facebook. Instructions: 
-1- Create an App on facebook 
-2- Integrate facebook ios api. 
+1- Create an App on facebook  (http://www.facebook.com/developers/createapp.php)
+2- Clone Facebook ios api https://github.com/facebook/facebook-ios-sdk.git
+3- Copy src folder from Facebook ios api project to your project
+4- Import FBConnect.h
+5- Follow instructions in https://github.com/facebook/facebook-ios-sdk 
 3- Configure App main bundle plist (Add url scheme fb[AppId]) 
-4- Configure App facebook-connect plist 
+4- Configure App facebook-connect.plist with app id, graph api, and permissions needed  
