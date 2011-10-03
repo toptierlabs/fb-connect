@@ -1,0 +1,5 @@
+ses the Facebook ios API to get wall posts of an user in Facebook. Instructions: 
+1- Create an App on facebook 
+2- Integrate facebook ios api. 
+3- Configure App main bundle plist (Add url scheme fb[AppId]) 
+4- Configure App facebook-connect plist 
