@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>graphApiPath</key>
+	<string>helenatannure/posts</string>
+	<key>appId</key>
+	<string>146442172118590</string>
+	<key>permissions</key>
+	<array>
+		<string>offline_access</string>
+	</array>
+</dict>
+</plist>

@@ -14,18 +14,60 @@
 
 
 @synthesize window=_window;
-
 @synthesize viewController=_viewController;
+
+//Facebook properties
+@synthesize fbURL;
+@synthesize facebook;
+
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    //Read Main bundle
+    CFBundleRef mainBundle;
+	mainBundle = CFBundleGetMainBundle();
+    NSDictionary* infoDict = [[NSBundle mainBundle] infoDictionary];
+    NSArray *urlTypes =  [infoDict objectForKey: @"CFBundleURLTypes"];
+    NSDictionary *urlType = [urlTypes objectAtIndex:0];
+    NSArray *urlSchemas = [urlType objectForKey:@"CFBundleURLSchemes"];
+    fbURL = [urlSchemas objectAtIndex:0]; 
+    //fbURL is fb[AppId]. Read from main plist.
+
     // Override point for customization after application launch.
-     
+    
     self.window.rootViewController = self.viewController;
     [self.window makeKeyAndVisible];
     return YES; 
     
 }
+
+//Handle URL
+
+//Usage for three20 Apps
+//- (BOOL)navigator:(TTNavigator*)navigator shouldOpenURL:(NSURL*)URL { 
+//    
+//    return YES; 
+//    
+//} 
+
+- (BOOL)isFBAuthenticationURL:(NSURL*)URL { 
+    return [[URL absoluteString] hasPrefix:fbURL]; 
+} 
+
+
+-(BOOL) application:(UIApplication *)application handleOpenURL:(NSURL *)url{
+    if ([self isFBAuthenticationURL:url]) { 
+        [facebook handleOpenURL:url];
+    } 
+    else { 
+        //TTOpenURL([TTURLAction actionWithURLPath:URL.absoluteString]); 
+        [facebook handleOpenURL:url]; //Uncomment above in case of tree20 Apps (and comment this one).
+    } 
+    return YES; 
+}
+
+//End Handle Url
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {
@@ -66,10 +108,13 @@
      */
 }
 
+
 - (void)dealloc
 {
     [_window release];
     [_viewController release];
+    [fbURL release];
+    [facebook release];
     [super dealloc];
 }
 
